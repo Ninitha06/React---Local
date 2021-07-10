@@ -1,0 +1,27 @@
+Assumption : expo-cli and nodeJS installed during class and is working fine in your machine.
+
+1. Go to the folder in which you work (whitehat project folder)
+(eg) cd c:\Ninitha\students
+2. expo init BuzzerApp
+3. Choose blank template
+4. Whenever you plan to use libraries other than react and react-native, install them using
+npm install.
+(eg) expo install react-navigation.
+Use npm install react-navigation@4.1.0 if you want to install a particular version of react native.
+
+5. Check if an entry is created in package.json file.
+6. Write your code
+7. expo start in command prompt. 
+If you want to clear cache, use expo start -c
+(Since we clear cache, this will take time initially but better than to face issues).
+Note : If you face any issues like unable to resolve module "XXXXX" .. it means that module has to be installed
+using expo install or npm install commands. Press Ctrl + C, install the module and then again do expo start to check your output.
+8. Scan the QR Code in LAN mode if using same Wifi.
+9. Switch to Tunnel if you are in different networks.
+10. Within few minutes, you should be able to see Building Javascript Bundle in your command prompt or 
+localhost window. If not, refresh the expo Go in your mobile, clear your memory consumption in phone and try again.
+11. You can do your coding with the output in mobile which gets refreshed automatically(hot reloading). 
+Sometimes, you might have to refresh manually. But after some time, Chrome browser might get heavy and hang.. 
+So do stop the metro bundler at regular intervals using Ctrl+C.
+
+Press Ctrl + C to exit command prompt running expo... Then you can close command prompt or type exit.
